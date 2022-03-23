@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask-security-medium-example"
+version = "0.1.0"
+description = ""
+authors = ["Štefan Földesi <stefan.foldesi@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.0.3"
+Flask-WTF = "^1.0.0"
+pyOpenSSL = "^22.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
